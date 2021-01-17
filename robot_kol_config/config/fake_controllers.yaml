@@ -1,0 +1,14 @@
+controller_list:
+  - name: fake_robot_kol_controller
+    joints:
+      - JKL1
+      - JKL2
+      - JKL3
+      - JKL4
+      - JKL5
+  - name: fake_hand_controller
+    joints:
+      - JKL5_dummy_joint
+initial:  # Define initial robot poses.
+  - group: robot_kol
+    pose: home
